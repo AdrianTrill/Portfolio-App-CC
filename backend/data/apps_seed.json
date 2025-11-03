@@ -1,0 +1,134 @@
+[
+  {
+    "id": "predictive-maintenance",
+    "name": "Predictive Maintenance",
+    "description": "AI-powered predictive maintenance system for operational efficiency.",
+    "can_run_locally": true,
+    "platforms": ["mac", "docker"],
+    "tech_stack": ["Next.js", "FastAPI", "PostgreSQL"],
+    "tags": ["ai", "maintenance"],
+    "images": [
+      "/images/predictive_maintanance_pumps_overview.png",
+      "/images/predictive_maintanance_dashboard.png",
+      "/images/predictive_maintanance_alerts_anomalies.png",
+      "/images/predictive_maintanance_ai.png"
+    ],
+    "architecture": {"short": "Next.js with Tailwind CSS and FastAPI.", "diagram_url": null},
+    "repo_url": "https://example.com/repos/predictive-maintenance",
+    "docs_url": "/docs/predictive-maintenance",
+    "run": {"command": "docker compose up predictive", "notes": "Requires Docker running"},
+    "health": {"endpoint": "http://localhost:5001/health", "status": "UNKNOWN"}
+  },
+  {
+    "id": "asset-intelligence",
+    "name": "Asset Intelligence",
+    "description": "Intelligent asset management and lifecycle optimization.",
+    "can_run_locally": true,
+    "platforms": ["mac", "docker"],
+    "tech_stack": ["Next.js", "Node.js", "MongoDB"],
+    "tags": ["it", "ops"],
+    "images": ["/images/asset_1.svg", "/images/asset_2.svg"],
+    "architecture": {"short": "Next.js with Tailwind CSS and FastAPI.", "diagram_url": null},
+    "repo_url": "https://example.com/repos/asset-intelligence",
+    "docs_url": "https://example.com/docs/asset-intelligence",
+    "run": {"command": "npm run dev", "notes": "Node 18+ required"},
+    "health": {"endpoint": "http://localhost:5002/health", "status": "UNKNOWN"}
+  },
+  {
+    "id": "mary-kay",
+    "name": "Mary Kay",
+    "description": "Customer analytics and personalization platform.",
+    "can_run_locally": false,
+    "platforms": ["k8s"],
+    "tech_stack": ["React", "Go", "Redis"],
+    "tags": ["retail", "analytics"],
+    "images": ["/images/marykay_1.svg", "/images/marykay_2.svg"],
+    "architecture": {"short": "Next.js with Tailwind CSS and FastAPI.", "diagram_url": null},
+    "health": {"endpoint": "http://localhost:5999/not-there", "status": "UNKNOWN"}
+  },
+  {
+    "id": "ai-admissions",
+    "name": "AI for Admissions",
+    "description": "AI-powered admissions insights and enrollment optimization.",
+    "can_run_locally": false,
+    "platforms": ["docker", "k8s"],
+    "tech_stack": ["Python", "FastAPI", "XGBoost"],
+    "tags": ["education", "ml"],
+    "images": ["/images/admissions_1.svg", "/images/admissions_2.svg"],
+    "architecture": {"short": "Next.js with Tailwind CSS and FastAPI.", "diagram_url": null},
+    "health": {"endpoint": "http://localhost:5200/health", "status": "UNKNOWN"}
+  },
+  {
+    "id": "sally-beauty",
+    "name": "Sally Beauty",
+    "description": "Inventory management and recommendations for beauty retail.",
+    "can_run_locally": false,
+    "platforms": ["k8s"],
+    "tech_stack": ["Next.js", "NestJS", "PostgreSQL"],
+    "tags": ["retail", "recsys"],
+    "images": ["/images/sally_1.svg", "/images/sally_2.svg"],
+    "architecture": {"short": "Next.js with Tailwind CSS and FastAPI.", "diagram_url": null},
+    "health": {"endpoint": null, "status": "UNKNOWN"}
+  },
+  {
+    "id": "nvidia-blueprint",
+    "name": "Nvidia Blueprint Matcher",
+    "description": "Matches optimal hardware configurations to use cases.",
+    "can_run_locally": true,
+    "platforms": ["mac", "docker"],
+    "tech_stack": ["Next.js", "FastAPI"],
+    "tags": ["hardware", "matcher"],
+    "images": ["/images/nvidia_1.svg", "/images/nvidia_2.svg"],
+    "architecture": {"short": "Next.js with Tailwind CSS and FastAPI.", "diagram_url": null},
+    "health": {"endpoint": "http://localhost:5300/health", "status": "UNKNOWN"}
+  },
+  {
+    "id": "call-center",
+    "name": "Call Center",
+    "description": "AI-enhanced customer service with sentiment analysis.",
+    "can_run_locally": false,
+    "platforms": ["k8s"],
+    "tech_stack": ["Go", "NATS", "React"],
+    "tags": ["customer", "routing"],
+    "images": ["/images/callcenter_1.svg", "/images/callcenter_2.svg"],
+    "architecture": {"short": "Next.js with Tailwind CSS and FastAPI.", "diagram_url": null},
+    "health": {"endpoint": "http://localhost:5400/health", "status": "UNKNOWN"}
+  },
+  {
+    "id": "cif-dedup",
+    "name": "CIF Deduplication",
+    "description": "Fraud detection, risk assessment, and customer insights.",
+    "can_run_locally": true,
+    "platforms": ["docker"],
+    "tech_stack": ["Python", "FastAPI", "Elasticsearch"],
+    "tags": ["fraud", "risk"],
+    "images": ["/images/cif_1.svg", "/images/cif_2.svg"],
+    "architecture": {"short": "Next.js with Tailwind CSS and FastAPI.", "diagram_url": null},
+    "health": {"endpoint": "http://localhost:5500/health", "status": "UNKNOWN"}
+  },
+  {
+    "id": "foreign-account-automation",
+    "name": "Foreign Account Form Automation",
+    "description": "Automation for processing and validating complex financial forms.",
+    "can_run_locally": false,
+    "platforms": ["k8s"],
+    "tech_stack": ["Node.js", "Next.js"],
+    "tags": ["compliance", "automation"],
+    "images": ["/images/foreign_1.svg", "/images/foreign_2.svg"],
+    "architecture": {"short": "Next.js with Tailwind CSS and FastAPI.", "diagram_url": null},
+    "health": {"endpoint": null, "status": "UNKNOWN"}
+  },
+  {
+    "id": "backup-monitoring",
+    "name": "Backup Monitoring & Reporting",
+    "description": "Realtime monitoring of backup systems with alerts and reports.",
+    "can_run_locally": true,
+    "platforms": ["docker", "mac"],
+    "tech_stack": ["Next.js", "FastAPI", "TimescaleDB"],
+    "tags": ["ops", "monitoring"],
+    "images": ["/images/backup_1.svg", "/images/backup_2.svg"],
+    "architecture": {"short": "Next.js with Tailwind CSS and FastAPI.", "diagram_url": null},
+    "health": {"endpoint": "http://localhost:5600/health", "status": "UNKNOWN"}
+  }
+]
+
